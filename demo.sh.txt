@@ -1,0 +1,10 @@
+$ gh repo create akamai-contrib/cli-aloha
+✓ Initialized repository in './cli-aloha/'
+$ cd cli-aloha && mkdir bin
+$ vim cli.json bin/akamai-aloha.py
+$ git add . &&
+	git commit -m "aloha, aloha" &&
+	git push -u origin master
+$ akamai install https://github.com/akamai-contrib/cli-aloha
+$ akamai aloha
+Aloha ahogg!
